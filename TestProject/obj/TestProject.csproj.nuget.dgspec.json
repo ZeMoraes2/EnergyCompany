@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj": {
+    "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj",
         "projectName": "EnergyCompanyConsoleApp",
-        "projectPath": "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj",
+        "projectPath": "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\jose.moraes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jose.moraes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,8 +43,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj": {
-                "projectPath": "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj"
+              "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj": {
+                "projectPath": "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\EnergyCompanyConsoleApp\\EnergyCompanyConsoleApp.csproj"
               }
             }
           }

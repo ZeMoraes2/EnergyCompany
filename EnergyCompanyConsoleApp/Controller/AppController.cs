@@ -12,6 +12,12 @@ namespace EnergyCompanyConsoleApp.Controller
     public class AppController : DataBase
     {
         public Endpoint SelectedEndpoint;
+
+        /// <summary>
+        /// Create an new endpoint
+        /// </summary>
+        /// <param name="error">gives it back an error, if there is.</param>
+        /// <param name="form">Submit the form to be created.</param>
         public void NewEndpoin(out string error, List<string> form)
         {
             try
@@ -25,10 +31,16 @@ namespace EnergyCompanyConsoleApp.Controller
             catch (Exception ex)
             {
                 error = ex.Message;
-            }   
-   
+            }
+
         }
 
+        /// <summary>
+        /// Checks if the form is valid.
+        /// </summary>
+        /// <param name="form">form to be created</param>
+        /// <param name="erro">gives it back an error, if there is.</param>
+        /// <returns></returns>
         private bool EndpointIsValid(List<string> form, out string erro)
         {
             erro = "";
@@ -43,15 +55,20 @@ namespace EnergyCompanyConsoleApp.Controller
                 erro = "Meter Number is invalid";
                 return false;
             }
-          
+
             return true;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="form"></param>
+        /// <returns></returns>
         public Endpoint ParseEndpoing(List<string> form)
         {
             Endpoint endpoint = new Endpoint()
             {
-                SerialNumber= form[0],
+                SerialNumber = form[0],
                 MeterModelId = int.Parse(form[1]),
                 MeterNumber = int.Parse(form[2]),
                 MeterFirmwareVersion = form[3],
@@ -84,7 +101,7 @@ namespace EnergyCompanyConsoleApp.Controller
             {
                 erro = ex.Message;
             }
-  
+
         }
 
         public void DeleteEndPoint()

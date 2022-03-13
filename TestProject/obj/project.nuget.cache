@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TIdfW+rMgz4TOuQjEvKQ2RaVYbQAj/tVCDLsYLWSLTk3AAWFrtATkTfYeRe3zkGF/hok5CKuJVZMMvixj11r7Q==",
+  "dgSpecHash": "DpNP87V0fkyck5Do6wh7q0mvII0c260UYGcZ5t4LIO+Q3taKqu4vTk4tpa7/FV1k8o8TrBUnzYK/Sf1nJUZh7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jose.moraes\\source\\repos\\EnergyCompanyConsoleApp\\TestProject\\TestProject.csproj",
+  "projectFilePath": "C:\\Users\\jose.moraes\\Documents\\GitHub\\EnergyCompany\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jose.moraes\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\jose.moraes\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

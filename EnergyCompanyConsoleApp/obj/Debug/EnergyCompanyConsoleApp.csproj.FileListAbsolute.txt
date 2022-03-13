@@ -6,3 +6,11 @@ C:\Users\jose.moraes\source\repos\EnergyCompanyConsoleApp\EnergyCompanyConsoleAp
 C:\Users\jose.moraes\source\repos\EnergyCompanyConsoleApp\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\jose.moraes\source\repos\EnergyCompanyConsoleApp\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.exe
 C:\Users\jose.moraes\source\repos\EnergyCompanyConsoleApp\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.pdb
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\bin\Debug\EnergyCompanyConsoleApp.exe.config
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\bin\Debug\EnergyCompanyConsoleApp.exe
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\bin\Debug\EnergyCompanyConsoleApp.pdb
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.csproj.AssemblyReference.cache
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.exe
+C:\Users\jose.moraes\Documents\GitHub\EnergyCompany\EnergyCompanyConsoleApp\obj\Debug\EnergyCompanyConsoleApp.pdb
