@@ -2,10 +2,7 @@
 using EnergyCompanyConsoleApp.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace EnergyCompanyConsoleApp
 {
@@ -94,7 +91,7 @@ namespace EnergyCompanyConsoleApp
             List<string> form = new List<string>();
             bool exitmeter = false;
             int opition;
-            Console.WriteLine("### NEW ENDPOINT ###");
+            Console.WriteLine("### 1 - NEW ENDPOINT ###");
             Console.WriteLine("PLEASE, SET THE ENDPOINT SERIAL NUMBER: ");
             form.Add(Console.ReadLine());
 
@@ -167,9 +164,11 @@ namespace EnergyCompanyConsoleApp
 
         static void ListEndPoint()
         {
+       
             bool haveEndpoints = false;
 
             Console.Clear();
+            Console.WriteLine(" #### 4 - SHOW ALL ENDPOINTS:  ####");
             foreach (var x in _appController.ListAll())
             {
                 EndpointPrint(x);
@@ -187,6 +186,7 @@ namespace EnergyCompanyConsoleApp
         static void FindEndpoint()
         {
             Console.Clear();
+            Console.WriteLine(" #### 5 - FIND ENDPOINT BY SERIAL ####");
 
             SerialNumberDialog(out string erro);
 
@@ -205,6 +205,7 @@ namespace EnergyCompanyConsoleApp
         static void DeleteEndPoint()
         {
             Console.Clear();
+            Console.WriteLine(" #### 3 - DELETE AN ENDPOINT ####");
             SerialNumberDialog(out string erro);
 
             if (string.IsNullOrEmpty(erro))
@@ -227,11 +228,13 @@ namespace EnergyCompanyConsoleApp
         static void EditEndPoint()
         {
             Console.Clear();
-
+            Console.WriteLine(" #### 2 - EDIT AN ENDPOINT ####");
             SerialNumberDialog(out string erro);
 
             if (string.IsNullOrEmpty(erro))
             {
+                Console.WriteLine($"EDITING THE : {_appController.SelectedEndpoint.SerialNumber} ");
+                Console.WriteLine($"CURRENT STATE : {(SwitchState)_appController.SelectedEndpoint.SwitchState} ");
                 _appController.EditEndPoint(SwitchStateForm());
                 Console.WriteLine("ENDPOINT HAS BEEN EDITED!!");
             }
@@ -241,9 +244,6 @@ namespace EnergyCompanyConsoleApp
             }
             Preskeytocontinue();
         }
-
-
-  
 
         #endregion
 
@@ -299,7 +299,7 @@ namespace EnergyCompanyConsoleApp
 
             do
             {
-                Console.WriteLine("PLEASE, SELECT THE METER MODEL: ");
+                Console.WriteLine("PLEASE, SELECT THE SWETCH STATE: ");
                 Console.WriteLine("1 - DISCONNECTED ");
                 Console.WriteLine("2 - CONNECTED ");
                 Console.WriteLine("3 - ARMED  ");
