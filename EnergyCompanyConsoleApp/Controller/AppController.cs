@@ -60,9 +60,9 @@ namespace EnergyCompanyConsoleApp.Controller
         }
 
         /// <summary>
-        /// 
+        /// Parse List String to List Endpoint
         /// </summary>
-        /// <param name="form"></param>
+        /// <param name="form">form to be parse</param>
         /// <returns></returns>
         public Endpoint ParseEndpoing(List<string> form)
         {
@@ -78,11 +78,22 @@ namespace EnergyCompanyConsoleApp.Controller
             return endpoint;
         }
 
+
+        /// <summary>
+        /// Return All Endpoints Saved.
+        /// </summary>
+        /// <returns></returns>
         public List<Endpoint> ListAll()
         {
             return GetAll();
         }
 
+
+        /// <summary>
+        /// Find Endpoint by Serial Number: Return an Endpoint saved or a error if not found.
+        /// </summary>
+        /// <param name="SerialNumber">Serial Number to find</param>
+        /// <param name="erro">gives it back an error, if there is.</param>
         public void FindEndpoint(string SerialNumber, out string erro)
         {
             erro = "";
@@ -104,11 +115,18 @@ namespace EnergyCompanyConsoleApp.Controller
 
         }
 
+        /// <summary>
+        /// Remove an endpoint saved
+        /// </summary>
         public void DeleteEndPoint()
         {
             RemoveEnpont(SelectedEndpoint);
         }
 
+        /// <summary>
+        /// Edite the switch state of a endpoint.
+        /// </summary>
+        /// <param name="state">New state</param>
         public void EditEndPoint(string state)
         {
             AlterSwitchState(SelectedEndpoint.SerialNumber, int.Parse(state));
